@@ -4,6 +4,8 @@
 # Heroku buildpack for Meteor
 #
 
+echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+
 # fail fast.
 set -e
 # debug verbosely.
