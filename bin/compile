@@ -119,7 +119,6 @@ function METEOR {
 # run with the context of the target release (project .meteor/release) rather
 # than the "latest" that is installed by install.meteor.com.
 cd "$APP_SOURCE_DIR"
-git submodule update --recursive --init
 
 echo "-----> Target Meteor version: `METEOR --version`"
 
